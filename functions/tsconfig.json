@@ -1,12 +1,16 @@
 {
   "compilerOptions": {
     "module": "commonjs",
-    "noImplicitReturns": false,
+    "noImplicitReturns": false,  
+    "skipLibCheck": true,
     "noUnusedLocals": true,
     "outDir": "lib",
     "sourceMap": true,
     "strict": true,
-    "target": "es2017"
+    "target": "es2017",
+    "typeRoots": [
+      "./functions/node_modules/@types"
+    ],
   },
   "compileOnSave": true,
   "include": [
